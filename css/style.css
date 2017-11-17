@@ -22,6 +22,19 @@
   background-image: url(../assets/images/cara6.jpg);
   background-size: cover;
 }
+
+h1 {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+hr {
+  background-color: #000;
+  display: inline-block;
+  height: 10px;
+  margin: 0px 20px; 
+  width: 80px;
+}
 .cuadro {
   width: 18.5%;
   height:200px;
@@ -30,12 +43,18 @@
   display: inline-block;
   position:relative;
 }
+
+.cuadro:hover {
+  opacity: 0.5;
+}
 .parrafo {
-  font-family: sans-serif;
-  font-size: 16px;
   color: white;
   display: inline-block;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-right: 20px;
   position: relative;
+  text-shadow: 2px 2px #000;
   top: 150px;
   float:right;
 }
